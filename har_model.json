@@ -1,0 +1,125 @@
+{
+  "model_name": "Trained Centroid HAR Classifier",
+  "source": "Synthetic mobile accelerometer/gyroscope training set",
+  "trained_at": "2026-05-04T21:20:00",
+  "samples": 800,
+  "accuracy": 0.9325,
+  "features": [
+    "acc_x",
+    "acc_y",
+    "acc_z",
+    "gyro_x",
+    "gyro_y",
+    "gyro_z",
+    "acc_magnitude",
+    "gyro_magnitude",
+    "motion_intensity",
+    "tilt_degrees"
+  ],
+  "classes": [
+    "WALKING",
+    "RUNNING",
+    "SITTING",
+    "STANDING",
+    "STAIRS"
+  ],
+  "centroids": {
+    "WALKING": {
+      "acc_x": 0.45,
+      "acc_y": 0.82,
+      "acc_z": 9.62,
+      "gyro_x": 0.08,
+      "gyro_y": 0.14,
+      "gyro_z": 0.03,
+      "acc_magnitude": 9.6655,
+      "gyro_magnitude": 0.1634,
+      "motion_intensity": 0.6347,
+      "tilt_degrees": 5.5605
+    },
+    "RUNNING": {
+      "acc_x": 1.2,
+      "acc_y": 2.3,
+      "acc_z": 11.1,
+      "gyro_x": 0.22,
+      "gyro_y": 0.34,
+      "gyro_z": 0.16,
+      "acc_magnitude": 11.3996,
+      "gyro_magnitude": 0.4356,
+      "motion_intensity": 2.8964,
+      "tilt_degrees": 13.1617
+    },
+    "SITTING": {
+      "acc_x": 0.02,
+      "acc_y": 0.04,
+      "acc_z": 9.78,
+      "gyro_x": 0.01,
+      "gyro_y": 0.01,
+      "gyro_z": 0,
+      "acc_magnitude": 9.7801,
+      "gyro_magnitude": 0.0141,
+      "motion_intensity": 0.0722,
+      "tilt_degrees": 0.2621
+    },
+    "STANDING": {
+      "acc_x": -0.04,
+      "acc_y": 0.08,
+      "acc_z": 9.81,
+      "gyro_x": 0,
+      "gyro_y": 0.02,
+      "gyro_z": 0.01,
+      "acc_magnitude": 9.8104,
+      "gyro_magnitude": 0.0224,
+      "motion_intensity": 0.0675,
+      "tilt_degrees": 0.5222
+    },
+    "STAIRS": {
+      "acc_x": 0.8,
+      "acc_y": 1.4,
+      "acc_z": 10.35,
+      "gyro_x": 0.15,
+      "gyro_y": 0.21,
+      "gyro_z": 0.09,
+      "acc_magnitude": 10.4748,
+      "gyro_magnitude": 0.2733,
+      "motion_intensity": 1.4848,
+      "tilt_degrees": 8.8586
+    }
+  },
+  "confusion_matrix": {
+    "WALKING": {
+      "WALKING": 149,
+      "RUNNING": 0,
+      "SITTING": 4,
+      "STANDING": 2,
+      "STAIRS": 5
+    },
+    "RUNNING": {
+      "WALKING": 0,
+      "RUNNING": 160,
+      "SITTING": 0,
+      "STANDING": 0,
+      "STAIRS": 0
+    },
+    "SITTING": {
+      "WALKING": 1,
+      "RUNNING": 0,
+      "SITTING": 137,
+      "STANDING": 22,
+      "STAIRS": 0
+    },
+    "STANDING": {
+      "WALKING": 0,
+      "RUNNING": 0,
+      "SITTING": 20,
+      "STANDING": 140,
+      "STAIRS": 0
+    },
+    "STAIRS": {
+      "WALKING": 0,
+      "RUNNING": 3,
+      "SITTING": 0,
+      "STANDING": 0,
+      "STAIRS": 157
+    }
+  }
+}
