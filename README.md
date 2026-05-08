@@ -1,0 +1,2 @@
+# Human-Movement-Analysis-Using-Accelerometer-Gyroscope-and-Pattern-Recognition
+A motion analysis project that uses accelerometer and gyroscope sensor data to recognize human movement patterns. The system processes sensor signals, extracts motion features, and applies pattern recognition or machine learning techniques to classify activities such as walking, running, sitting, standing, or other body movements.
